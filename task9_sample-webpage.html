@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .banner {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+          ),
+          url(pictures/background.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .navbar {
+        width: 85%;
+        margin: auto;
+        padding: 25px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+      }
+
+      .navbar ul li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+      }
+
+      .content {
+        width: 100%;
+        position: absolute;
+        top: 35%;
+        text-align: center;
+        color: white;
+      }
+
+      .content h1 {
+        font-family: "Poppins", sans-serif;
+      }
+
+      .content p {
+        font-family: "Poppins", sans-serif;
+        font-size: small;
+      }
+
+      .content button {
+        background-color: red;
+        color: white;
+        width: 150px;
+        margin-top: 100px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="banner">
+      <div class="navbar">
+        <h3 style="color: whitesmoke">ACTIVEBOX</h3>
+        <ul>
+          <li><a href="#">FEATURES</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">OUR TEAM</a></li>
+          <li><a href="#">TESTIMONALS</a></li>
+          <li><a href="#">DOWNLOAD</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>
+          YOUR FAVORITE ONE PAGE <br />
+          MULTI PURPOSE TEMPLATE
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut
+          consequuntur sapiente illum laboriosam adipisci?<br />
+          Ex ipsum eveniet placeat odit nemo magni illum iure. Molestias unde,
+          fuga aspernatur alias facere dicta!
+        </p>
+        <center>
+          <button style="padding: 2px">FIND OUT MORE</button>
+        </center>
+      </div>
+    </div>
+    <div class="icons"></div>
+  </body>
+</html>
